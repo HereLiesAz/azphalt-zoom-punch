@@ -1,0 +1,32 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.zoom-punch",
+  "name": "Zoom Punch",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Radial motion blur streaking out from centre, pulsing in and out \u2014 the impact hit used on drops and reveals.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/zoom-punch.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "distortion",
+        "zoom-blur",
+        "radial",
+        "impact",
+        "one-click"
+      ]
+    }
+  ]
+}
